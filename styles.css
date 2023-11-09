@@ -1,0 +1,131 @@
+/* General  */
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/poppins-bold-webfont.woff)format("woff"),
+    url(./fonts/Poppins-Bold.ttf)format("ttf");
+    src: url(./fonts/Poppins-Black.ttf)format("ttf");
+    src: url(./fonts/Poppins-Medium.ttf)format("ttf");
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+     font-family: 'poppins', sans-serif;
+    /* font-weight: black; */
+    font-size: 45px;
+    color: #444;
+}
+h2{
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    padding: 170px 0 30px 0;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 24px;
+    color: #444;
+}
+p{
+    line-height: 20px;
+    color: #777;
+}
+#dream-trip{
+    font-weight: bold;
+}
+.purple{
+    color: #9a72ab;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #444;
+}
+.wrapper{
+    margin: 0 auto;
+    padding: 0 35px;
+}
+
+
+/* Header */
+header{
+    height: 120px;
+}
+header h1{
+    float: left;
+    margin-top: 32px;
+}
+header nav{
+    float: right; 
+    margin-top: 40px;
+}
+header nav ul li{
+    /* display: inline-block; */
+    float: left;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Landing Image */
+
+#landing-image{
+    height: 480px;
+    background: url(./images/pexels-asad-photo-maldives-1320674.jpg);
+    background-position: center;
+
+}
+.button-1{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background: #9a72ab;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 4px;
+} 
+
+/* Travel Steps */
+#travel-steps{
+    margin: 80px 0;
+}
+#travel-steps h4{
+    margin-bottom: 20px;
+    
+}
+#travel-steps ul{ 
+    
+
+}
+#travel-steps ul li{
+    width: 300px;
+    float: left;
+    /* We want each list group to float left next to each other */
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+#step-1{
+   background: url(./images/030\ steps-icon-3.png) no-repeat top center; 
+}
+#step-2{
+    background: url(./images/030\ steps-icon-3.png) no-repeat top center;
+}
+#step-3{
+    background: url(./images/030\ steps-icon-3.png) no-repeat top center;
+}
