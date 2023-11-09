@@ -29,6 +29,10 @@ h2{
     padding: 170px 0 30px 0;
     margin-bottom: 20px;
 }
+h3{
+    font-size: 30px;
+    color: #444;
+}
 h4{
     font-size: 24px;
     color: #444;
@@ -53,8 +57,16 @@ a{
 }
 .wrapper{
     margin: 0 auto;
-    padding: 0 35px;
+    padding: 0 40px;
 }
+.clear{
+    clear: both;
+}
+small{
+    font-size: 13px;
+    font-style: italic;
+}
+
 
 
 /* Header */
@@ -98,6 +110,9 @@ header nav ul li a{
     text-align: center;
     border-radius: 4px;
 } 
+.button-1:hover{
+    background: pink;
+}
 
 /* Travel Steps */
 #travel-steps{
@@ -108,8 +123,14 @@ header nav ul li a{
     
 }
 #travel-steps ul{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
     
 
+}
+#travel-steps{
+    margin-bottom: 20px;
 }
 #travel-steps ul li{
     width: 300px;
@@ -128,4 +149,107 @@ header nav ul li a{
 }
 #step-3{
     background: url(./images/030\ steps-icon-3.png) no-repeat top center;
+}
+/* Possibilities */
+#possibilities{
+    background-color: #efefef;
+    padding: 60px 0;
+   
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+}
+#possibilities article{
+    width: 370px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilities article:first-child{
+    /* margin-right: 60px; */
+}
+
+.overlay{
+    background: rgba(255,255,255,0.95);
+    height: 85%;
+    width: 160px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#possibilities p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-2{
+    color: #fff;
+    background-color: #9a72ab;
+    padding: 6px 20px;
+    border-radius:  4px;
+}
+
+/* Contact */
+#contact{
+    padding: 60px 0;
+    text-align: center;
+}
+#contact h3{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9a72ab;
+}
+
+form{
+    margin: 60px 0 20px 0;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.button-3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background: #9a72ab;
+    border-style: none;
+    border-radius: 3px;
+}
+.button-3:hover{
+    color: #fff;
+    background: orange;
+    
+}
+footer{
+    height: 200px;
+    background: rgb(24, 24, 24);
+}
+#end {
+    text-align: center;
+    padding: 70px 0 10px 0;
+}
+
+footer h3,p{
+    color: #fff;
 }
